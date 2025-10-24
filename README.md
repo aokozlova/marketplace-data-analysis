@@ -25,11 +25,16 @@ The goal is to find why revenue growth has stalled, identify product–market fi
 
 3. **Product–Market Fit**
     - Only 3% of customers made more than one purchase
-    - Retention declines across cohorts
+    - Retention declines
+  
+<p align="center">
+  <img src="charts/Avg_Retention.png" width="45%">
+  <img src="charts/3M_Repeat_Rate_trend.png" width="45%">
+</p>
  
-![Alt text](charts/3M_Repeat_Rate_trend.png)
 
-**Conclusion: no product–market fit yet**.Customers don’t return after the first purchase
+
+**Conclusion: No product–market fit yet.** Customers don’t return after the first purchase
 
 4. **Performance Metrics**
 Defined key metrics to track marketplace growth:
