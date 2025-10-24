@@ -1,5 +1,7 @@
 # Marketplace Retention and Growth Analysis
 
+[English](README.md) | [Русский](README.ru.md)
+
 This project analyses data from a startup building a new online marketplace.
 The platform recently entered the market in Brazil.
 
