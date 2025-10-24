@@ -1,7 +1,12 @@
 # Marketplace Retention and Growth Analysis
 
-This project analyses customer behaviour and performance metrics of an e-commerce marketplace.
-The goal is to find why revenue growth has stalled, identify product–market fit issues, and propose data-driven hypotheses for improvement.
+This project analyses data from a startup building a new online marketplace.
+The platform recently entered the market in Brazil.
+
+Marketplace revenue has been flat for several months.
+The product manager needs to understand how to drive metric growth without creating friction for users.
+
+The goal of this analysis is to explore key performance indicators, identify growth bottlenecks, prioritise hypotheses, and define metrics for future A/B testing
 
 ## Overview
 
