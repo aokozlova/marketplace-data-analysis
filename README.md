@@ -20,14 +20,16 @@ The goal is to find why revenue growth has stalled, identify product–market fi
      - Calculated monthly retention based on delivered orders
      - Built a cohort heatmap
      - Median 1st-month retention: 0.35%
-> !!!!! RETENTION HEATMAP
+
+ ![Alt text](charts/retention_heatmap.png)
 
 3. **Product–Market Fit**
     - Only 3% of customers made more than one purchase
     - Retention declines across cohorts
+ 
+![Alt text](charts/3M_Repeat_Rate_trend.png)
 
 **Conclusion: no product–market fit yet**.Customers don’t return after the first purchase
-> !!!!!!!!!RETURN RATE CHART
 
 4. **Performance Metrics**
 Defined key metrics to track marketplace growth:
@@ -36,7 +38,12 @@ Defined key metrics to track marketplace growth:
     - Repeat Customer Rate
     - Average Revenue Per Paying User
 
-> !!!!!! LINE CHARTS
+<p align="center">
+  <img src="charts/GMV.png" width="33%">
+  <img src="charts/MAU.png" width="33%">
+  <img src="charts/ARPPU.png" width="33%"> 
+</p>
+
 
 5. **Hypothesis Testing (ICE Framework)**
 <br>Three improvement hypotheses were evaluated:
