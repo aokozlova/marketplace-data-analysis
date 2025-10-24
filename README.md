@@ -12,24 +12,24 @@ The goal is to find why revenue growth has stalled, identify product–market fi
 
 ## Key Steps
 
-1. Data Preparation
+1. **Data Preparation**
     - Merged customer, order, and item datasets
     - Checked data consistency and missing values
     - Found anomalies in delivery and approval timestamps
-2. Retention Analysis
+2. **Retention Analysis**
      - Calculated monthly retention based on delivered orders
      - Built a cohort heatmap
      - Median 1st-month retention: 0.35%
 > !!!!! RETENTION HEATMAP
 
-3. Product–Market Fit
+3. **Product–Market Fit**
     - Only 3% of customers made more than one purchase
     - Retention declines across cohorts
 
 **Conclusion: no product–market fit yet**.Customers don’t return after the first purchase
 > !!!!!!!!!RETURN RATE CHART
 
-4. Performance Metrics
+4. **Performance Metrics**
 Defined key metrics to track marketplace growth:
     - Gross Merchandise Value
     - Monthly Active Users
@@ -38,18 +38,27 @@ Defined key metrics to track marketplace growth:
 
 > !!!!!! LINE CHARTS
 
-5. Hypothesis Testing (ICE Framework)
-Three improvement hypotheses were evaluated:
+5. **Hypothesis Testing (ICE Framework)**
+<br>Three improvement hypotheses were evaluated:
 <br>
 
 > H1: Fix order processing bug → fewer cancellations
-> H2: Shorten shipping time → fewer delays, more repeat orders
-> H3: Add new payment option → easier checkout, more repeat customers
+> <br>H2: Shorten shipping time → fewer delays, more repeat orders
+>  <br>H3: Add new payment option → easier checkout, more repeat customers
+
+<br>
+
+| Hypothesis | Customers affected | Impact | Confidence | Ease | ICE score |
+|:------------|-------------------:|--------:|-------------:|------:|-----------:|
+| H1          | 490                | 4       | 8           | 6     | 192        |
+| H2          | 25                 | 1       | 10          | 4     | 40         |
+| H3          | 289                | 3       | 5           | 9     | 135        |
+
 
 H1 received the highest ICE score (192 points) and was selected for A/B testing.
-> !!!!! ICE TABLE
 
-6. A/B Test Design
+
+6. **A/B Test Design**
     - **Target metric:** Delivery Rate
     - **Proxy metric:** Pick-Up Rate
     - **Guardrail metric:** Order Conversion Rate
